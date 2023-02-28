@@ -1,2 +1,2 @@
 # test-website
- Estou reproduzindo umwebsite com conhecimentos adiquirido  estudos
+ Estou reproduzindo um website com conhecimentos adiquiridos com meus estudos.

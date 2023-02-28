@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      
+    <title>page-teste</title>
+
+</head>
+<body>
+    <header class="menu">
+        <img src="images/logo.doterra.png" alt="logo" />
+        <nav>
+            <a href="">Comprar</a> 
+            <a href="">Nossa História</a>
+            <a href="">Porquê nós</a>
+            <a href="">Recursos</a>  
+        </nav>
+        <span>
+            <input type="text" name="pesquisa" placeholder="Pesquisar produtos, coleção, palavra-chave" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </span>
+        <div class="icons1">
+            <i class="fa-regular fa-circle-question"></i>
+            <span>ajuda</span> 
+        </div>
+        <div class="icons2">
+            <i class="fa-solid fa-user"></i>
+            <span>conta</span> 
+        </div>
+    </header><!--menu-header-->
+    
+    <section class="banner-slider">
+        <div class="slider">
+            <div>
+              <img src="images/banner1.png" alt="banner1">
+            </div>
+            <div>
+              <img src="images/banner1.png"alt="banner2">
+            </div>
+            <div>
+              <img src="images/banner1.png" alt="banner3">
+            </div>
+          </div><!--slider-->
+          <div class="arrow-down">
+            <img src="images/arrow.png" alt="arrow">
+        </div>    
+    </section><!--banner-slider-->
+
+    <section class="produtos">
+        <h1>Conheça Nossos Produtos</h1>
+        <br>
+        <div class="box-produtos">
+           <div class="box">
+            <img src="images/oleo1.png" alt="">
+            <h1>Óleo essencial frankincense</h1>
+            <input type="submit" name="Saiba" value="Saiba mais"> 
+        </div>
+        </div>
+        <div class="box-produtos">
+            <div class="box">
+                <img src="images/oleo2.png" alt="">
+                <h1>Óleo essencial Lemon</h1>
+                <input type="submit" name="Saiba" value="Saiba mais">
+            </div> 
+         </div> 
+    </section>
+
+   
+   
+    <script src="https://kit.fontawesome.com/9da71c42cd.js" crossorigin="anonymous"></script>
+
+    <script>
+       $('.slider').slick({
+                dots: true,
+                arrows:false,
+                speed:1000,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                pauseOnHover:false,
+                responsive: [
+                           {
+                             breakpoint: 768,
+                             settings: {
+                                 slidesToShow: 1,
+                                 slidesToScroll: 1
+                              }
+                          }],
+            });
+
+    </script><!--slider-->
+
+</body>
+</html>
